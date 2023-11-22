@@ -1,0 +1,87 @@
+.page6__main__wrap {
+    position: relative;
+    background: #111010;
+    height: 905px;
+    padding-top: 156px;
+}
+
+.page6__card {
+    position: relative;
+    width: 1170px;
+    height: 902px;
+    flex-shrink: 0;
+    border: 1px solid #E7C9A3;
+    margin: 0 80px;
+}
+
+.page6__card__photo {
+    width: 640px;
+    position: relative;
+    top: -155px;
+    left: -70px;
+    background-image: url(../../assets/page6/natali.png);
+    height: 1057px;
+    flex-shrink: 0;
+    float: left;
+}
+
+.page6__head {
+    position: relative;
+    left: -55px;
+    color: var(--white, #FFF);
+    font-family: Poiret One;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align: left;
+    margin-top: 56px;
+}
+
+.page6__fuckup {
+    position: relative;
+    left: -55px;
+    color: var(--lite-grey, #C5C4C4);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125.2%;
+    margin-right: 20px;
+    padding: 0;
+    width: 1089px;
+    text-align: left;
+    margin-top: 47px;
+}
+
+.page6__span {
+    color: var(--sun, #FFE49A);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125.2%;
+    text-align: left;
+}
+
+.page6__text__ul {
+    text-align: left;
+    width: 1100px;
+    position: relative;
+    left: -35px;
+}
+
+.page6__text__ul li {
+    list-style: disc;
+    margin-top: 30px;
+}
+
+.page6__text__li {
+    color: var(--lite-grey, #C5C4C4);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125.2%;
+}

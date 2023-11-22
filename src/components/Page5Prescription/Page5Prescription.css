@@ -1,0 +1,42 @@
+.page5__main__wrap {
+    position: relative;
+    background: #111010;
+    height: 410px;
+}
+
+.page5__head__text {
+    position: absolute;
+    top: 120px;
+    margin: 0px 166px;
+    text-align: center;
+    font-family: Poiret One;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.page5__head__flex{
+    display: flex;
+}
+
+.page5__text__white {
+    color: var(--white, #FFF);
+}
+
+.page5__text__yellow {
+    color: var(--sun, #FFE49A);
+    font-family: Poiret One;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.page5__text__bottom {
+    color: var(--white, #DEDBDB);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125.2%;
+}
