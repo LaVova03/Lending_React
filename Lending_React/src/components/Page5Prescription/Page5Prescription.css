@@ -1,0 +1,114 @@
+.page5__main__wrap {
+    position: relative;
+    background: #111010;
+    height: 410px;
+    padding-top: 185px;
+    padding-bottom: 50px;
+}
+
+.page5__head__text {
+    position: absolute;
+    top: 310px;
+    margin: 0px 360px;
+    text-align: center;
+    font-family: Poiret One;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.page5__head__flex {
+    display: flex;
+}
+
+.page5__text__white {
+    color: var(--white, #FFF);
+}
+
+.page5__text__yellow {
+    color: var(--sun, #FFE49A);
+    font-family: Poiret One;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.page5__text__bottom {
+    color: var(--white, #DEDBDB);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125.2%;
+}
+
+.page5__lines__main {
+    display: block;
+    margin: 0 auto;
+}
+
+.page5__br__adapt,
+.page5__lines__adapt {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+
+    .page5__lines__main {
+        display: none;
+    }
+
+    .page5__lines__adapt {
+        display: block;
+    }
+
+    .page5__main__wrap {
+        position: relative;
+        background: #111010;
+        width: 365px;
+        padding: 33px 5px 0;
+        height: 91px;
+        padding-top: 0;
+        margin-top: -1px;
+
+    }
+
+    .page5__head__text {
+        position: absolute;
+        width: 333.333px;
+        top: 120px;
+        margin: -86px 29px;
+        color: var(--white, #FFF);
+        text-align: center;
+        font-family: Poiret One;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .page5__text__yellow {
+        color: var(--sun_gold, #FFD89D);
+        font-family: Poiret One;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .page5__text__bottom {
+        width: 290px;
+        color: var(--white, #DEDBDB);
+        font-family: Poiret One;
+        font-size: 8.333px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 10px;
+    }
+
+    .page5__br__adapt {
+        display: block;
+    }
+}

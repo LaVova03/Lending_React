@@ -1,0 +1,76 @@
+.page3__photo__wrap {
+    display: flex;
+    background-image: url(../../assets/page3/crown.png);
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 840px;
+    align-items: center;
+}
+
+.page3__text {
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: Liana;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 65px;
+}
+
+.page3__border__adapt {
+    position: absolute;
+    display: block;
+    width: 1283px;
+    height: 655px;
+    flex-shrink: 0;
+    border: 0.26px solid #E7C9A3;
+}
+
+.shrift__point {
+    position: relative;
+    top: -13px;
+    left: -21px;
+}
+
+.page4__br__adapt {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .page3__photo__wrap {
+        position: relative;
+        margin-top: 0;
+        display: flex;
+        background-image: url(../../assets/page3/adapt/chessman.png);
+        justify-content: center;
+        background-repeat: no-repeat;
+        width: 375px;
+        height: 175.521px;
+        flex-shrink: 0;
+        align-items: center;
+    }
+
+    .page3__text {
+        color: var(--white, #FFF);
+        text-align: center;
+        font-family: Liana;
+        font-size: 16.667px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .page3__border__adapt {
+        position: absolute;
+        display: block;
+        width: 334.115px;
+        height: 138.021px;
+        flex-shrink: 0;
+        border: 0.26px solid #E7C9A3;
+    }
+
+    .page4__br__adapt {
+        display: block;
+    }
+}

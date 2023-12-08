@@ -1,0 +1,558 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    min-width: 100hv;
+}
+
+.start__page__wrap {
+    background-image: url(../../assets/page1/chess.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 56.8em;
+    padding: 1.25em 1.25em 0 1.25em;
+}
+
+.start__page__head ul {
+    justify-content: space-between;
+    margin: 0;
+    display: flex;
+}
+
+li {
+    list-style: none;
+}
+
+.logo-img {
+    position: relative;
+    background-image: url(../../assets/page1/logo.png);
+    width: 7.875em;
+    height: 4.889em;
+    flex-shrink: 0;
+}
+
+.text-logo {
+    position: absolute;
+    top: 31px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white, #FFF);
+    background: rgba(30, 30, 30, 0.80);
+    width: 15em;
+    height: 2.5em;
+    flex-shrink: 0;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 0.5em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 2.08px;
+}
+
+.start-head-center {
+    display: flex;
+    justify-content: space-between;
+}
+
+.start-head-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.25em 1.1em;
+    border: 0;
+    color: var(--lite-grey, #C5C4C4);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: none;
+    cursor: pointer;
+}
+
+.start-head-link:hover {
+    color: var(--white, #FFF);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.start-head-link:active {
+    color: var(--white, #FFF);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+.start-link-profile1,
+.start-link-profile2 {
+    border: 0;
+    background: none;
+    cursor: pointer;
+}
+
+.start-body-left {
+    margin: 0;
+}
+
+.start-ul-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.start-head-right {
+    margin: 1.25em;
+}
+
+.start-link-profile1 {
+    background-image: url(../../assets/page1/fb.svg);
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    margin-right: 12px;
+}
+
+.start-link-profile1:hover {
+    background-image: url(../../assets/page1/fbhover.svg);
+}
+
+.start-link-profile1:active {
+    background-image: url(../../assets/page1/fbactive.svg);
+}
+
+.start-link-profile2 {
+    background-image: url(../../assets/page1/inst.svg);
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+.start-link-profile2:hover {
+    background-image: url(../../assets/page1/insthover.svg);
+}
+
+.start-link-profile2:active {
+    background-image: url(../../assets/page1/instactive.svg);
+}
+
+.start__page__body {
+    display: flex;
+    margin-top: 187px;
+    height: 633px;
+    width: min-content;
+}
+
+#body-first-li {
+    color: var(--white, #FFF);
+    font-family: Poiret One;
+    font-size: 118px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 89px;
+    text-transform: uppercase;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.natali-logo {
+    width: 776px;
+    height: 844px;
+    flex-shrink: 0;
+    position: absolute;
+    top: -212px;
+    right: -27.2em;
+}
+
+#body-second-li {
+    color: var(--sun, #FFE49A);
+    font-family: 'Liana', sans-serif;
+    font-size: 3.5em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: lowercase;
+}
+
+#body-third-li {
+    color: var(--lite-grey, #C5C4C4);
+    font-family: Montserrat;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125.2%;
+    margin: 1.4em 1em;
+    text-align: left;
+}
+
+.start__body__button {
+    display: flex;
+    width: 11.3em;
+    height: 3.2em;
+    padding: 1em 4em;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6em;
+    flex-shrink: 0;
+    background: var(--sun_gold, #FFD89D);
+    border: 0;
+    color: #312F2F;
+    box-shadow: 0px 4px 30px 0px #FFE49A;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.start__body__button:hover {
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    width: 319px;
+    height: 89px;
+    padding: 14px 64px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    background: var(--gold, #EDBD51);
+    box-shadow: 0px 4px 30px 0px #FFE49A;
+}
+
+.start__body__button:active {
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background: var(--lite-gold, #D2B281);
+    box-shadow: 0px 4px 30px 0px #FFE49A;
+
+}
+
+.start-body-right {
+    position: relative;
+    width: 33em;
+}
+
+.shrift__є {
+    transform: rotate(180deg);
+    display: inline-block;
+    position: relative;
+    top: 17px;
+    left: -5px;
+}
+
+.natali-logo__adapt,
+.start__burger__close,
+.start__burger__menu,
+.start__burger__button,
+.burger-menu {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .start__page__wrap {
+        background-image: url(../../assets/page1/adapt/chess.png);
+        background-repeat: no-repeat;
+        height: 747px;
+        flex-shrink: 0;
+        text-align: center;
+        padding: 0;
+        width: 375px;
+    }
+
+    .start__page__head ul {
+        display: inline-flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+        margin: 20px;
+    }
+
+    .start__page__head {
+        width: min-content;
+    }
+
+    .burger-menu {
+        display: block;
+        width: 30px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bar {
+        width: 30px;
+        height: 3px;
+        background-color: lightgray;
+        margin: 6px 0;
+    }
+
+    .natali-logo,
+    .start-link-profile1,
+    .start-link-profile2,
+    .start-head-center,
+    .head-center-li {
+        display: none;
+    }
+
+    #body-first-li {
+        margin-top: 130px;
+        color: var(--white, #FFF);
+        width: 331.574px;
+        font-family: Poiret One;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px;
+        text-transform: uppercase;
+        margin-left: 0;
+    }
+
+    #body-second-li {
+        color: var(--sun, #FFE49A);
+        width: 218px;
+        font-family: Liana;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: lowercase;
+        white-space: nowrap;
+        margin-left: 50px;
+    }
+
+    #body-third-li {
+        display: flex;
+        width: 331.574px;
+        height: 80.6px;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        color: #DBD9D9;
+        text-align: left;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 125.2%;
+        margin-left: 0;
+        margin: 10px 0;
+    }
+
+    .start__body__button {
+        display: flex;
+        width: 246px;
+        height: 69px;
+        padding: 14px 64px;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        gap: 10px;
+        flex-shrink: 0;
+        flex-wrap: wrap;
+        background: var(--sun_gold, #FFD89D);
+        border: 0;
+        color: var(--grey, #312F2F);
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        cursor: pointer;
+        margin-left: 0;
+        margin: 0 auto;
+    }
+
+    .start__body__button:hover {
+        display: flex;
+        width: 246px;
+        height: 69px;
+        padding: 14px 64px;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        gap: 10px;
+        flex-shrink: 0;
+        flex-wrap: wrap;
+        background: var(--sun_gold, #FFD89D);
+        border: 0;
+        color: var(--grey, #312F2F);
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        cursor: pointer;
+        margin: 0 auto;
+    }
+
+    .start__body__button:active {
+        color: var(--white, #FFF);
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        background: var(--lite-gold, #D2B281);
+        box-shadow: 0px 4px 30px 0px #FFE49A;
+        margin: 0 auto;
+    }
+
+    .start-body-left {
+        margin-left: 0px;
+        z-index: 102;
+        position: absolute;
+        width: 335px;
+        padding-left: 20px;
+        text-align: center;
+        height: min-content;
+    }
+
+    .start-body-right {
+        position: relative;
+        width: 375px;
+        top: -170px;
+        left: 0px;
+        height: 450px;
+        overflow: hidden;
+    }
+
+    .start__page__body {
+        display: flex;
+        margin-top: 187px;
+        height: 450px;
+        width: min-content;
+    }
+
+    .start__body_background {
+        z-index: 101;
+        top: 440px;
+        position: absolute;
+        display: block;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 22.94%, #000 100%, rgba(0, 0, 0, 0.00) 100%);
+        width: 375px;
+        height: 380px;
+    }
+
+    .start-head-right {
+        margin-left: 55%;
+    }
+
+    .start__burger__button {
+        display: block;
+        background: inherit;
+        border: 0;
+    }
+
+    .start__burger__menu {
+        z-index: 103;
+        width: 260px;
+        height: 126px;
+        position: absolute;
+        transition: 0.7s;
+        -webkit-transition: right 0.3s ease;
+        -moz-transition: right 0.3s ease;
+        -ms-transition: right 0.3s ease;
+        -o-transition: right 0.3s ease;
+        text-align: left;
+        margin-left: 40px;
+        background: #111010;
+        align-items: center;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        top: 0px;
+        left: 75px;
+    }
+
+    .start__burger__close {
+        display: none;
+    }
+
+    .start__burger__text {
+        background: none;
+        border: 0;
+        color: var(--lite-grey, #C5C4C4);
+        font-family: Montserrat;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: left;
+    }
+
+    .start__burger__x {
+        position: relative;
+        left: 207px;
+        top: -104px;
+        background-color: inherit;
+        border: 0;
+    }
+
+    .start__img__x {
+        width: 40px;
+        color: white;
+        border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+    }
+
+    .start__burger__menu button:nth-of-type(1) {
+        margin-left: 37px;
+        margin-top: 20px;
+    }
+
+    .start__burger__menu button:nth-of-type(2) {
+        margin-left: 37px;
+    }
+
+    .natali-logo__adapt {
+        display: block;
+        position: relative;
+        top: -2em;
+        width: max-content;
+        height: 490px;
+        flex-shrink: 0;
+        right: -1px;
+        width: -moz-fit-content;
+        width: max-content;
+    }
+
+    .shrift__є {
+        transform: rotate(180deg);
+        display: inline-block;
+        position: relative;
+        top: 8px;
+        left: -3px;
+    }
+
+}

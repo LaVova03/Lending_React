@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Poiret One';
+    src: local('Poiret One'), url(./fonts/PoiretOne/PoiretOne-Regular.ttf) format(opentype);
+}
+
+@font-face {
+    font-family: 'Liana';
+    src: local('Liana'), url(./fonts/Liana/liana.ttf) format(opentype);
+}
+
+
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat'), url(./fonts/Montserrat/Montserrat-Regular.ttf) format(opentype);
+}
+
+@font-face {
+    font-family: 'Montserrat Medium';
+    src: local('Montserrat Medium'), url(./fonts/Montserrat/Montserrat-Medium.ttf) format(opentype);
+}
+
+@font-face {
+    font-family: 'Montserrat Bold';
+    src: local('Montserrat Bold'), url(./fonts/Montserrat/Montserrat-Bold.ttf) format(opentype);
+}
+
+@font-face {
+    font-family: 'Montserrat SemiBold';
+    src: local('Montserrat SemiBold'), url(./fonts/Montserrat/Montserrat-SemiBold.ttf) format(opentype);
+}

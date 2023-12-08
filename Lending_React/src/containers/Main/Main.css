@@ -1,0 +1,21 @@
+.Main {
+  text-align: center;
+  min-width: 100hv;
+  width: 100hv;
+}
+
+@media screen and (max-width: 600px) {
+  .Main {
+    text-align: center;
+    max-width: max-content;
+  }
+
+  html,
+  body {
+    width: fit-content;
+  }
+
+  #root{
+    width: max-content;
+  }
+}
